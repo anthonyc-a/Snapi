@@ -1,0 +1,30 @@
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 0;
+  font-size: 11px;
+  filter: grayscale(1);
+  background-color: #fff;
+  color: #999;
+}
+
+.footer img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer ul li {
+  margin-left: 8px;
+  text-decoration: underline;
+}

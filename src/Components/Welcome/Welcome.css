@@ -1,0 +1,53 @@
+.welcome {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: calc(100% - 4rem);
+  height: 60%;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3rem 30% 3rem 3rem;
+  border-radius: 32px;
+  background-color: #f5f6f8;
+}
+
+@media screen and (max-width: 640px) {
+  .welcome {
+    top: 100px;
+    width: calc(100% - 2rem);
+    height: 70%;
+    padding: 2rem 20% 2rem 2rem;
+  }
+}
+
+.welcome h1 {
+  font-size: 48px;
+  line-height: 1.35;
+}
+
+@media screen and (max-width: 640px) {
+  .welcome h1 {
+    font-size: 36px;
+  }
+}
+
+.welcome h1 span {
+  color: #00aeef;
+}
+
+.welcome button {
+  margin-top: 3rem;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #344774;
+  cursor: pointer;
+}
+
+.welcome button svg {
+  margin-right: 16px;
+}

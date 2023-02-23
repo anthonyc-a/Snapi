@@ -1,0 +1,15 @@
+.section-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  height: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
